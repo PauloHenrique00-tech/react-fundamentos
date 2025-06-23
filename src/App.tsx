@@ -1,3 +1,10 @@
 export default function App() {
-  return <h1>Olá React! 😊</h1>;
+  // Comentário de uma linha
+  /* Comentário de múltiplas linhas*/
+  return (
+    <header>
+      <h1>Olá React! 😊</h1>
+      <hr />
+    </header>
+  );
 }
