@@ -1,9 +1,17 @@
+import estilos from "./Menu.module.css";
+
 export default function Menu() {
   return (
-    <nav>
-      <a href="">Home</a>
-      <a href="">Sobre</a>
-      <a href="">Contato</a>
+    <nav className={estilos.menuSite}>
+      <a className={estilos.link} href="">
+        Home
+      </a>
+      <a className={estilos.link} href="">
+        Sobre
+      </a>
+      <a className={estilos.link} href="">
+        Contato
+      </a>
     </nav>
   );
 }
