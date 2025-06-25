@@ -1,6 +1,6 @@
-import Artigo from "../Artigo/Artigo";
-import AvisoImporante from "../AvisoImportante/AvisoImporante";
-import DicaDoDia from "../DicaDoDia/DicaDoDia";
+import Artigo from "./Artigo/Artigo";
+import AvisoImporante from "./AvisoImportante/AvisoImporante";
+import DicaDoDia from "./DicaDoDia/DicaDoDia";
 import estilos from "./Conteudo.module.css";
 
 export default function Conteudo() {
@@ -9,7 +9,9 @@ export default function Conteudo() {
       <section
         className={`${estilos.principal} ${estilos.arredondada} ${estilos.sombra}`}
       >
-        <h2>Seja bem-vindo(a) aos Fundamentos de React!</h2>
+        <h2 className="font-bold text-lg">
+          Seja bem-vindo(a) aos Fundamentos de React!
+        </h2>
         <p>Este é um exemplo de aplicação React.</p>
 
         <Artigo />
