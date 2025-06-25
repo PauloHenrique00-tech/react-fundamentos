@@ -4,9 +4,18 @@
   justify-content: center;
   gap: 1rem;
   transition: transform 0.3s ease-in-out;
+
+  a {
+    color: #61dafb;
+    font-weight: bold;
+  }
 }
 
 .link:hover {
   color: aquamarine;
   transform: scale(1.2);
+}
+
+.link:focus {
+  outline: 2px;
 }
