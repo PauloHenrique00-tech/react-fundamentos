@@ -1,8 +1,6 @@
-import React from "react";
-
-export default function AvisoImporante() {
+export default function AvisoImportante() {
   return (
-    <section className="bg-yellow-200 border-1-4 border-yellow-600 p-4 mt-4 rounded">
+    <section className="bg-yellow-200 border-l-4 border-yellow-600 p-4 mt-4 rounded">
       <h3 className="font-bold text-2xl text-orange-800">Aviso importante:</h3>
       <p>Alguns alunos e alunas estão perigando reprovação nesta UC.</p>
 
