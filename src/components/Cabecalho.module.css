@@ -9,10 +9,9 @@ de array com colchetes. */
   color: #61dafb;
   padding: 1rem;
 
-  /* a {
-    color: orange;
+  a {
     text-decoration: none;
-  } */
+  }
 
   hr {
     border: none;
