@@ -3,8 +3,10 @@
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  transition: transform 0.3s ease-in-out;
 }
 
 .link:hover {
   color: red;
+  transform: scale(1.2);
 }
