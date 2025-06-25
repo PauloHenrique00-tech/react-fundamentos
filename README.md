@@ -10,6 +10,9 @@ Styled Componetes é uma biblioteca (lib) muito usada com projetos React que per
 - npm install --save-dev @types/styled-components
 - Extensão vscode-styled-components
 
+Ao trabalhar com Styled Components você pode criar regras com qualquer seletor e usar
+lógica JavaScript dentro de template string.
+
 ## 05_modulos-css
 
 Módulos CSS (CSS Modules) são uma maneira de escrever CSS em arquivos separados de
