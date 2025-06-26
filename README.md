@@ -8,6 +8,11 @@ Elas funcionam como argumentos de uma função, que podem receber dados de um co
 
 Props basicamente são uma forma de comunicação entre componentes.
 
+- Criação de props e definição de tipos para as props
+- Desestruturação de props
+- Manipulação de props opcionais
+- Renderização condicional
+
 ## 07_tailwindcss
 
 Tailwind CSS é um framework CSS utilitário. Em vez de criar classes personalizadas para estilizar elementos, você usa classes prontas (utilitárias) diretamente no HTML para aplicar estilos rapidamente.
