@@ -8,6 +8,10 @@ import cursos from "../../data/cursos";
 import ListaCursos from "../ListaCursos/ListaCursos";
 
 export default function Conteudo() {
+  const categoriasUnicas = [...new Set(cursos.map((curso) => curso.categoria))];
+
+  console.log(categoriasUnicas);
+
   return (
     <main className={estilos.conteudo}>
       <section
@@ -17,9 +21,6 @@ export default function Conteudo() {
         <Saudacao nome="Paulo" classe="bg-emerald-100" />
 
         <p>Este é um exemplo de aplicação React.</p>
-
-        {/* Faça a lógica necessária para apresentar o componente Artigo e passar para ele 
-        os dados de cada curso proveniente de cursos. */}
 
         <ListaCursos />
       </section>
