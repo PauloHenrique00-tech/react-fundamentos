@@ -1,6 +1,5 @@
 import AvisoImportante from "./AvisoImportante/AvisoImportante";
 import DicaDoDia from "./DicaDoDia/DicaDoDia";
-import estilos from "./Conteudo.module.css";
 import Saudacao from "./Saudacao";
 import cursos from "../../data/cursos";
 import ListaCursos from "../ListaCursos/ListaCursos";
@@ -16,9 +15,7 @@ export default function Conteudo() {
 
   return (
     <>
-      <section
-        className={`${estilos.principal} ${estilos.arredondada} ${estilos.sombra}`}
-      >
+      <section>
         <h2 className="font-bold text-lg">Fundamentos de React!</h2>
         <Saudacao nome="Paulo" classe="bg-emerald-100" />
 
