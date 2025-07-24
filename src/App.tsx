@@ -1,21 +1,19 @@
-import { Route, Routes } from "react-router-dom";
 import Cabecalho from "./components/Cabecalho/Cabecalho";
+import Conteudo from "./components/Conteudo/Conteudo";
 import Rodape from "./components/Rodape/Rodape";
-import Home from "./pages/Home";
-import Sobre from "./pages/Sobre";
-import Contato from "./pages/Contato";
 
 export default function App() {
+  // Comentário de uma linha
+  /* Comentário de múltiplas linhas */
   return (
     <>
       <Cabecalho />
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/sobre" element={<Sobre />}></Route>
-        <Route path="/contato" element={<Contato />}></Route>
-      </Routes>
+      {/* Comentários no meio do JSX, normal ficarem entre {} */}
+      {/* Ao usar outros elementos HTML no JSX, é importante 
+      envolver tudo em único <> </> (Fragmento React) */}
 
+      <Conteudo />
       <Rodape />
     </>
   );
