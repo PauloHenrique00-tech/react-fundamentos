@@ -1,6 +1,10 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 export default function Pagina404() {
+  useEffect(() => {
+    document.title = "404 página não encontrada";
+  }, []);
   return (
     <section className="bg-red-400 p-3 text-center">
       <h2>Ops!</h2>
