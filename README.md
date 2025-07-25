@@ -4,7 +4,7 @@
 
 ## Sobre o useEffect
 
-O useEffect é um hook do Reacr usado para executar ou lidar com efeitos colaterais em componentes funcionais.
+O useEffect é um hook do React usado para executar ou lidar com efeitos colaterais em componentes funcionais.
 
 Ele serve para lidar com ações que ocorram fora do fluxo normal de renderização, como:
 
