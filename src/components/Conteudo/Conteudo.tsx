@@ -21,9 +21,10 @@ export default function Conteudo() {
 
         <p>Este é um exemplo de aplicação React.</p>
 
-        {categoriasUnicas.map((categoria) => {
+        {categoriasUnicas.map((categoria, index) => {
           return (
             <button
+              key={index}
               onClick={() => setCategoriaAtiva(categoria)}
               className="rounded py-1 px-2 mx-1 bg-amber-200 
             hover:bg-green-300"
