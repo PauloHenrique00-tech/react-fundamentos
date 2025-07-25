@@ -3,13 +3,20 @@ import DicaDoDia from "./DicaDoDia/DicaDoDia";
 import Saudacao from "./Saudacao";
 import cursos from "../../data/cursos";
 import ListaCursos from "../ListaCursos/ListaCursos";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Conteudo() {
   /* Definindo o state para categoria ativa/selecionada, 
   podendo ser null (valor padrão, inicial) ou string
   (quando uma categoria for selecionada) */
   const [categoriaAtiva, setCategoriaAtiva] = useState<null | string>(null);
+
+  /* Trocando o title da página conforme a categoria escolhida */
+  useEffect(() => {
+    document.title = categoriaAtiva
+      ? categoriaAtiva + "| Meu App React"
+      : "Meu App React";
+  }, [categoriaAtiva]);
 
   const categoriasUnicas = [...new Set(cursos.map((curso) => curso.categoria))];
 
